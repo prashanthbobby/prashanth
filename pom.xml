@@ -3,7 +3,7 @@
   <groupId>com.ibex.app</groupId>
   <artifactId>prashanth-app</artifactId>
   <version>1.0</version>
-	<packaging>jar</packaging>
+	<packaging>war</packaging>
 
 
 	<dependencies>
