@@ -7,8 +7,6 @@
 
 	<properties>
 		<junit.version>4.13.1</junit.version>
-		<sonar.host.url>http://54.164.90.55:9000/</sonar.host.url>
-		<sonar.login>squ_bb2013b0b3f073b72cfce6605ec80dbae51e989d</sonar.login>
 
 	</properties>
 	
@@ -22,22 +20,6 @@
 		</dependency>
 
 	</dependencies>
-
-	<distributionManagement>
-	
-	    <repository>
-	      <id>nexus</id>
-	      <name>Prashanth Releases Nexus Repository</name>
-	      <url>http://34.203.193.15:8081/repository/prashanth-releases//</url>
-	    </repository>
-	    
-	    <snapshotRepository>
-	      <id>nexus</id>
-	      <name>Prashanth Snapshot Nexus Repository </name>
-	      <url>http://34.203.193.15:8081/repository/prashanth-snapshot//</url>
-	    </snapshotRepository>
-	    
-	</distributionManagement>
 	
 	<build>
 	    <plugins>
