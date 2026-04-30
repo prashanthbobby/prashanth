@@ -1,0 +1,17 @@
+node{
+
+//Varaibles
+def mavenHome = tool name:"maven-3.9.15"
+
+//Checkout stage
+stage ('CheckoutCode'){
+ git branch: 'test', credentialsId: 'fa61a174-2f60-4fdc-a7e7-643ae17c60df', url: 'https://github.com/prashanthbobby/prashanth.git'
+}
+
+
+//Build Stage
+stage('Build'){
+sh "$mavenHome/bin/mvn clean package"
+}
+
+}
